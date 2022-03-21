@@ -1,0 +1,115 @@
+.t1_modal {
+  z-index: 100;
+  margin-left: 500px;
+}
+.t1_box {
+  position: relative;
+  min-width: 400px;
+  min-height: 400px;
+  background: rgba(255, 255, 255, 0.205);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  z-index: 10;
+  padding: 20px;
+  backdrop-filter: blur(25px);
+}
+
+.t1_box h3 {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.t1_box .t1_list {
+  position: relative;
+  display: flex;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.t1_box .t1_list:hover {
+  background: #fff;
+  box-shadow: -15px;
+  transform: scale(1.15) translateX(30px) translateY(-15px);
+  z-index: 20;
+}
+
+.t1_box .t1_list .t1_imgBx {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.t1_box .t1_list .t1_imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+.t1_box .t1_list .t1_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+.t1_box .t1_list .t1_content .t1_rank {
+  position: absolute;
+  right: -50px;
+  color: #03a9f4;
+  transition: 0.5s;
+  font-size: 2.5em;
+}
+
+.t1_box .t1_list .t1_content .t1_rank small {
+  font-weight: 500;
+  opacity: 0.25;
+}
+
+.t1_box .t1_list:hover .t1_content .t1_rank {
+  right: 20px;
+}
+
+.t1_box .t1_list .t1_content h4 {
+  line-height: 2.4em;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.t1_box .t1_list:hover .t1_content h4{
+  color: #333;
+}
+
+@media only screen and (max-width: 920px) {
+  .t1_modal {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .t1_box {
+    min-width: 250px;
+    min-height: 400px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .t1_box {
+    min-width: 200px;
+    min-height: 400px;
+  }
+}

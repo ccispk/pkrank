@@ -1,0 +1,123 @@
+.user-view {
+    padding: 4rem;
+    height: 600px;
+    background: #fff;
+}
+  
+.user-view h1 {
+    text-align: center;
+    font-size: 80px;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+  
+.user__container {
+    display:block;
+    max-width: 1200px;
+    height: 90%;
+    width: 100%;
+}
+
+.user__wrapper{
+    width:300px;
+    height:700px;
+    margin:0;
+    overflow-y:auto;
+    transform:rotate(-90deg) translateY(-150px);
+    transform-origin:right top;
+}
+
+.user__wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.user__items {
+    margin-bottom: 24px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    padding: 5px;
+    transform:rotate(90deg);
+}
+  
+.user__item {
+    display:  block;
+    text-align: center;
+    margin: 0 1rem;
+    border-radius: 10px;
+}
+
+.user__item__pic-wrap{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.user__item__img {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: rgba(134, 132, 132, 0.445);
+    border-width: 5px;
+    overflow: hidden;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    margin-top: auto;
+  }
+
+.user__item__info {
+    padding: 20px 30px 30px;
+}
+  
+.user__item__text {
+    color: #252e48;
+    font-size: 36px;
+    line-height: 24px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .user__wrapper{
+        height: 650px;
+        transform:rotate(-90deg) translateY(-240px);
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .user-view {
+        padding: 2rem;
+    }
+    .user__wrapper{
+        width: auto;
+        height: 100%;
+        transform: none;
+        overflow: auto;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    
+    .user__wrapper::-webkit-scrollbar {
+        display: none;
+    }
+
+    .user__items {
+        transform:none;
+    }
+    .user-view h1 {
+        font-size: 50px;
+    }
+    .user__items {
+        flex-flow: column;
+    }
+}
