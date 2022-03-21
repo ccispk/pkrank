@@ -6,7 +6,7 @@ import "./Rank.css";
 import Table1 from "../Table/Table_1"
 import Table2 from "../Table/Table_2"
 
-const images = process.env.PUBLIC_URL + ["/images/dog_rank_background.jpg", "/images/cat_rank_background.jpg"];
+const images = [process.env.PUBLIC_URL + "/images/dog_rank_background.jpg", process.env.PUBLIC_URL + "/images/cat_rank_background.jpg"];
 
 const variants = {
   enter: (direction: number) => {
