@@ -16,15 +16,15 @@ function Footer() {
             <Link to='/'><h2>Home</h2></Link>
           </div>
           <div class='footer-link-items'>
-            <Link to='/'><h2>About</h2></Link>
+            <Link to='/about'><h2>About</h2></Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <Link to='/'><h2>Participants</h2></Link>
+            <Link to='/participants'><h2>Participants</h2></Link>
           </div>
           <div class='footer-link-items'>
-            <Link to='/'><h2>Rank</h2></Link>
+            <Link to='/rank'><h2>Rank</h2></Link>
           </div>
         </div>
       </div>

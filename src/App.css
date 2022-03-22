@@ -36,11 +36,10 @@
     font-size: 100px;
     height: 500px;
   }
-  
-  .rank {
-
-  }
-  
-  .login {
-
+  .login-container {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
   }

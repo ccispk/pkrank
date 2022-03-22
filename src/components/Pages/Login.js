@@ -4,7 +4,9 @@ import '../../App.css'
 function Login() {
   return (
     <>
-    <div className="login-container"></div>
+    <div className="login-container">
+      <h3>Coming soon...</h3>
+    </div>
     </>
   )
 }
