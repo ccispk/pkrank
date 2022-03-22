@@ -6,6 +6,11 @@ video {
     z-index: -1;
   }
 
+  video::-webkit-media-controls {
+    display: none;
+}
+
+
 .hero-container {
     width: 100%;
     height: 90vh;
