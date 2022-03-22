@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/pkrank/static/css/main.46c3b714.css",
-    "main.js": "/pkrank/static/js/main.08a9f8c4.js",
+    "main.css": "/pkrank/static/css/main.6114470e.css",
+    "main.js": "/pkrank/static/js/main.9e7a44a1.js",
     "static/media/img-8.jpg": "/pkrank/static/media/img-8.68ec8c5d84a4a0bcb222.jpg",
     "static/media/about_us.jpg": "/pkrank/static/media/about_us.855a4ceecdd456e709ad.jpg",
     "index.html": "/pkrank/index.html",
-    "main.46c3b714.css.map": "/pkrank/static/css/main.46c3b714.css.map",
-    "main.08a9f8c4.js.map": "/pkrank/static/js/main.08a9f8c4.js.map"
+    "main.6114470e.css.map": "/pkrank/static/css/main.6114470e.css.map",
+    "main.9e7a44a1.js.map": "/pkrank/static/js/main.9e7a44a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.46c3b714.css",
-    "static/js/main.08a9f8c4.js"
+    "static/css/main.6114470e.css",
+    "static/js/main.9e7a44a1.js"
   ]
 }
