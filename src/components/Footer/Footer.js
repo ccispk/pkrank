@@ -32,11 +32,11 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              PMCRITIC
-              <i class='fab fa-typo3' />
+              PKRANK
+              <i class="fas fa-paw"></i>
             </Link>
           </div>
-          <small class='website-rights'>PMCRITIC © 2022</small>
+          <small class='website-rights'>PKRANK © 2022</small>
         </div>
       </section>
     </div>

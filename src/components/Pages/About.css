@@ -24,8 +24,9 @@
 .about-container p{
     width: 50%;
     color: #fff;
-    font-size: 25px;
+    font-size: 20px;
     padding-left: 20px;
+    line-height: 20px;
     text-align: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;

@@ -3,8 +3,8 @@ import "./Table_1.css"
 
 const data = [
     { name: "TTF", rank: 1, image: "/images/Papio.jpg"},
-    { name: "LHM", rank: 2, image: "/images/shiba.jpg"},
-    { name: "LWO", rank: 3, image: "/images/dog.jpg"},
+    { name: "LWO", rank: 2, image: "/images/dog.jpg"},
+    { name: "LHM", rank: 3, image: "/images/shiba.jpg"},
   ];
 
 function Table_1() {

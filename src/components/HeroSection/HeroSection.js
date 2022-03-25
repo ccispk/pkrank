@@ -7,7 +7,9 @@ function HeroSection() {
     return (
         <div className="hero-container">
             <video src={process.env.PUBLIC_URL + '/videos/video.mp4'} playsInline loop autoPlay muted allowfullscreen='false'/>
-            <h1>PK OR POOR?</h1>
+            <div className="text-container">
+                <h1 style={{color:'red'}}>PK</h1><h1>OR</h1><h1 style={{color:'green'}}>POOR</h1><h1>?</h1>
+            </div>
             <p>The Ranking for PK</p>
             <div className="hero-btns">
                 <Button className="btns" buttonStyle="btn--primary" buttonSize="btn--large">GET STARTED</Button>

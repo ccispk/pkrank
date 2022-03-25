@@ -2,9 +2,8 @@ import React from 'react'
 import "./Table_2.css"
 
 const data = [
-    { name: "LCK", rank: 1, image: "/images/tiger.jpg"},
-    { name: "YPM", rank: 2, image: "/images/cat.jpg"},
-    { name: "CSW", rank: 3, image: "/images/fox.jpg"},
+    { name: "YPM", rank: 1, image: "/images/cat.jpg"},
+    { name: "CSW", rank: 2, image: "/images/fox.jpg"},
   ];
 
 function Table_2() {
@@ -30,15 +29,7 @@ function Table_2() {
             <h4>{data[1].name}</h4>
           </div>
         </div>
-        <div className="t2_list">
-          <div className="t2_imgBx">
-            <img src={process.env.PUBLIC_URL + data[2].image} />
-          </div>
-          <div className="t2_content">
-            <h2 className="t2_rank"><small>#</small>{data[2].rank}</h2>
-            <h4>{data[2].name}</h4>
-          </div>
-        </div>
+
       </div>
     </>
   )
