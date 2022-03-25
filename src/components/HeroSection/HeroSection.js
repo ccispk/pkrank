@@ -8,7 +8,7 @@ function HeroSection() {
         <div className="hero-container">
             <video src={process.env.PUBLIC_URL + '/videos/video.mp4'} playsInline loop autoPlay muted allowfullscreen='false'/>
             <div className="text-container">
-                <h1 style={{color:'red'}}>PK</h1><h1>OR</h1><h1 style={{color:'green'}}>POOR</h1><h1>?</h1>
+                <h1 style={{color:'red'}}>PK</h1><h1>&nbsp;OR&nbsp;</h1><h1 style={{color:'green'}}>POOR</h1><h1>?</h1>
             </div>
             <p>The Ranking for PK</p>
             <div className="hero-btns">
