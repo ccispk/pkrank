@@ -2,9 +2,9 @@ import React from 'react'
 import "./Table_2.css"
 
 const data = [
-    { name: "LHM", rank: 1, image: "/images/shiba.jpg"},
-    { name: "LWO", rank: 2, image: "/images/dog.jpg"},
-  ];
+  { name: "YPM", rank: 1, image: "/images/cat.jpg" },
+  { name: "CSW", rank: 2, image: "/images/fox.jpg" },
+];
 
 function Table_2() {
   return (
