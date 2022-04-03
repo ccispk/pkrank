@@ -4,7 +4,7 @@ import "./Table_1.css"
 const data = [
   { name: "LHM", rank: 1, image: "/images/shiba.jpg" },
   { name: "TTF", rank: 2, image: "/images/Papio.jpg" },
-  { name: "LWO", rank: 3, image: "/images/dog.jpg" }
+  { name: "CSW", rank: 3, image: "/images/fox.jpg" }
 ];
 
 function Table_1() {
