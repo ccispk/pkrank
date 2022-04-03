@@ -3,7 +3,7 @@ import "./Table_2.css"
 
 const data = [
   { name: "YPM", rank: 1, image: "/images/cat.jpg" },
-  { name: "CSW", rank: 2, image: "/images/fox.jpg" },
+  { name: "LWO", rank: 2, image: "/images/dog.jpg" },
 ];
 
 function Table_2() {
