@@ -30,7 +30,15 @@ function Table_2() {
             <h4>{data[1].name}</h4>
           </div>
         </div>
-
+        <div className="t2_list">
+          <div className="t2_imgBx">
+            <img src={process.env.PUBLIC_URL + data[2].image} />
+          </div>
+          <div className="t2_content">
+            <h2 className="t2_rank"><small>#</small>{data[2].rank}</h2>
+            <h4>{data[2].name}</h4>
+          </div>
+        </div>
       </div>
     </>
   )
